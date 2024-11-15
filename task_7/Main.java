@@ -32,7 +32,7 @@ public class Main {
     }
 }
 
-public class Hotel {
+class Hotel {
     private String name;
     private ArrayList<Room> rooms;
 
@@ -78,7 +78,7 @@ public class Hotel {
     }
 }
 
-public abstract class Room {
+abstract class Room {
     private int id;
     private int number;
     private int capacity;
@@ -134,7 +134,7 @@ public abstract class Room {
     }
 }
 
-public class StandardRoom extends Room {
+class StandardRoom extends Room {
     private boolean includedTV;
 
     public StandardRoom (int id, int number, int capacity, double price, boolean includedTV) {
@@ -163,7 +163,7 @@ public class StandardRoom extends Room {
     }
 }
 
-public class ComfortRoom extends Room {
+class ComfortRoom extends Room {
     private int bathroomsCount;
 
     public ComfortRoom (int id, int number, int capacity, double price, int bathroomsCount) {
@@ -192,7 +192,7 @@ public class ComfortRoom extends Room {
     }
 }
 
-public class LuxuryRoom extends Room {
+class LuxuryRoom extends Room {
     private int minimalDaysRent;
     private int maximumDaysRent;
 

@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class RandomArrayExample {
+public class Main {
 
     public static void main(String[] args) {
         final int length = 10;
