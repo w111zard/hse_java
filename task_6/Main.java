@@ -121,6 +121,7 @@ public class StandardRoom extends Room {
         return this.includedTV;
     }
 
+    @Override
     public String toString() {
         return String.format(
         "[Standard Room] id: %d number: %d capacity: %d price:%.1f includedTV: %b",
@@ -149,6 +150,7 @@ public class ComfortRoom extends Room {
         this.bathroomsCount = count;
     }
 
+    @Override
     public String toString() {
         return String.format(
         "[Comfort Room] id: %d number: %d capacity: %d price:%.2f bathroomsCount: %d",
@@ -186,6 +188,7 @@ public class LuxuryRoom extends Room {
         this.maximumDaysRent = days;
     }
 
+    @Override
     public String toString() {
         return String.format(
         "[Luxury room] id: %d number: %d capacity: %d price:%.2f minimumDaysRent: %d maximumDaysRent: %d",
