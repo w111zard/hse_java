@@ -1,0 +1,24 @@
+[
+  {
+    "bathroomsCount": 2,
+    "id": 2,
+    "number": 2,
+    "capacity": 1,
+    "price": 2000.0
+  },
+  {
+    "includedTV": false,
+    "id": 1,
+    "number": 1,
+    "capacity": 4,
+    "price": 1000.0
+  },
+  {
+    "minimalDaysRent": 20,
+    "maximumDaysRent": 20,
+    "id": 3,
+    "number": 3,
+    "capacity": 2,
+    "price": 5000.0
+  }
+]
